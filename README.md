@@ -4,7 +4,7 @@ Sets up a custom rest integration using CX as Code and Terraform remote modules
 
 ```hcl
 module "integration" {
-    source = "git::https://github.com/GenesysCloudDevOps/microsoft-dynamics-data-actions-integration-module.git?ref=v1.0.0"
+    source = "git::https://github.com/GenesysCloudDevOps/custom-rest-integration-module.git?ref=v1.0.0"
 
     integration_name           = "Custom Rest Integration"
     integration_creds_username = "<username>"
